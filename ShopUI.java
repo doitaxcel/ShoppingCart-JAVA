@@ -40,7 +40,6 @@ public class ShopUI extends JFrame{
     private JLabel totalLabel;  // for Total Price text     
     private JTextArea textArea;     // this is the ProductList AREA (where ITEMS ARE SHOWN)
     private JSpinner productSpinner;    // FOR QUANTITY    (CHALLENGE: 1)
-    private JScrollPane textAreaScroll;
 
     public ShopUI(){
         setTitle("Shopping Cart");      // TITLE OF FRAME
