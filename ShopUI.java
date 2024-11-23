@@ -64,7 +64,6 @@ public class ShopUI extends JFrame{
         // FOR ELEMENT POSITION || LAYOUT in UI
         setLayout(new BorderLayout());
 
-        // {
         // P A N E L S //
         // PANEL THAT HOLDS THE PRODUCTS, LIKE IN SHOPEE WHAT WE HAVE A POSITION WHERE WE CAN SEE THE PRODUCTS
         JPanel productPanel = new JPanel();
@@ -113,7 +112,6 @@ public class ShopUI extends JFrame{
         cartSummaryButton = new JButton("View Cart Summary");
         clearAllProductButton = new JButton("Clear Cart");
         
-
         // JSpinner DECLARATION
         productSpinner = new JSpinner(new SpinnerNumberModel(1, 1, 1000, 1));
         JPanel spinnerPanel = new JPanel();
